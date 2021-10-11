@@ -3,8 +3,14 @@ import NavBar from './components/nav/navbar';
 import Info from './assets/info.svg';
 import ServiceCard from './components/serviceCard/serviceCard';
 import Slider from './components/slider/slider';
+import RadioCard from './components/radioCard/radioCard';
 
 function App() {
+
+  function buttonClick(e) {
+    
+    e.target.classList.toggle('active')
+  }
 
   return (
     <div className="app">
@@ -69,6 +75,44 @@ function App() {
                 <Slider />
                 <p><span>Dangerous Cargo</span> (ex. Chemicals, Battery)</p>
               </div>
+
+              <div className="cargo__button">
+                <button onClick={buttonClick}>Total Dimensons</button>
+                <button>Package Details</button>
+              </div>
+
+              <div className="measurements">
+                <div className="measurements__input-box">
+                  <label htmlFor="volume">
+                    Total Volume
+                  </label>
+                  <input type="number" /><span>cbm</span>
+                </div>
+                <div className="measurements__input-box">
+                  <label htmlFor="weight">
+                    Total Weight
+                  </label>
+                  <input type="number" /><span>kg</span>
+                </div>
+              </div>
+            </section>
+
+
+            <section className="additional">
+              <h2>Additional Services</h2>
+
+              <div className="flex">
+                <div className="left">
+                  <RadioCard title="Export Fowarding" body="We handle customs clearance and documentation"/>
+                  <RadioCard title="Import Customs Clearance" body="We handle import customs and regulatory requirements"/>
+                </div>
+
+                <div className="right">
+                  <RadioCard title="Cargo Insurance" body="Protect your cargo from logistics risks up to its full value"/>
+                  <RadioCard title="Transport / Delivery" body="We deliver the cargo to your door step from the ports"/>
+                </div>
+              </div>
+              
             </section>
 
           </div>

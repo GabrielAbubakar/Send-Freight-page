@@ -1,0 +1,24 @@
+.radio-card {
+
+    display: flex;
+    align-items: top;
+}
+
+.radio-card:not(:last-of-type) {
+    margin-bottom: 2rem;
+}
+
+.radio-card div {
+    margin-left: 1rem;
+}
+
+.radio-card h3 {
+    color: #2B2C2E;
+    font-size: 1rem;
+    margin-bottom: .3rem;
+}
+
+.radio-card p {
+    color: #959698;
+    font-size: .8rem;
+}
