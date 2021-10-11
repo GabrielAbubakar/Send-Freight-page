@@ -1,0 +1,93 @@
+.cargo {
+    width: 100%;
+    padding: 2rem 2.5rem;
+    margin-bottom: 1.3rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.cargo__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-bottom: 2rem;
+}
+
+.cargo__header .switch {
+    margin-left: auto;
+    margin-right: 1rem
+}
+
+.cargo__header span {
+    font-weight: 500;
+}
+
+.cargo__header p {
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+}
+
+.cargo__header h2 {
+    color: #2B2C2E;
+    font-size: 1.4rem;
+}
+
+.cargo__button {
+    background-color: #F1F2F6;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 2rem;
+}
+
+.cargo__button button{
+    padding: .5rem 1rem;
+    background-color: #F1F2F6;
+    border: none;
+    color: #8e8f93;
+}
+
+.cargo__button button:hover {
+    color: #0548A1;
+    background-color: #fff;
+}
+
+.measurements {
+    font-size: .8rem;
+    color: #8e8f93;
+    display: flex;
+}
+
+.measurements__input-box {
+    position: relative;
+    margin-right: 1rem;
+}
+
+.measurements label {
+    display: inline;
+    background-color: #fff;
+    position: absolute;
+    left: 10px;
+    color: #2B2C2E;
+    font-weight: 500;
+}
+
+.measurements input {
+    padding-right:20px;
+    outline: none;
+    padding: .5rem 1rem;
+    border: 1px solid #dddddd;
+    margin-top: .5rem;
+    width: 10rem;
+}
+
+.measurements span {
+    margin-left: -34px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

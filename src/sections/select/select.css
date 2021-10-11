@@ -1,0 +1,19 @@
+.select {
+    width: 100%;
+    padding: 2rem 2.5rem;
+    background-color: #fff;
+    margin-bottom: 1.3rem;
+    border-radius: 5px;
+}
+
+.select h2 {
+    color: #2B2C2E;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

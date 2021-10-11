@@ -1,0 +1,76 @@
+.export {
+    width: 100%;
+    padding: 2rem 2.5rem;
+    margin-bottom: 1.3rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.info__logo {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: .5rem;
+}
+
+.export__intro {
+    display: flex;
+    justify-content: space-between;
+    width: 7.5rem;
+    border: 1px solid #dddddd;
+}
+
+.export__intro p {
+    padding: .5rem;
+    font-size: .8rem;
+}
+
+.export__intro p:not(:last-of-type) {
+    border-right: 1px solid #dddddd;
+}
+
+.export__topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.export__topbar input {
+    border: none;
+    padding: 9px 8px;
+    background-color: #f3f3f3;
+    width: 21rem;
+    outline: none;
+}
+
+.input__box {
+    display: flex;
+    background-color: #f3f3f3;
+    padding-left: 9px;
+    align-items: center;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.export__footbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.export__footbar input {
+    border: none;
+    padding: 9px 8px;
+    background-color: #f3f3f3;
+    width: 18rem;
+    outline: none;
+}
+
+select {
+    border: none;
+    padding: 9px 8px;
+    background-color: #f3f3f3;
+    width: 18rem;
+    outline: none;
+}
