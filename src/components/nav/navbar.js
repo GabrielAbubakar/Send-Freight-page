@@ -1,6 +1,7 @@
 import React from "react";
 import './navbar.css';
 import Button from "../button/button";
+import { MagnifyingGlass } from "phosphor-react";
 
 
 const NavBar = () => {
@@ -11,6 +12,9 @@ const NavBar = () => {
                 <p className="logo">SendFREIGHT</p>
                 <div className="search">
                     <input type="text" placeholder="Search" />
+                    <span className="magnify">
+                        <MagnifyingGlass color="#eee" size={16} weight="bold" />
+                    </span>
                 </div>
             </div>
             <div className="nav__right">

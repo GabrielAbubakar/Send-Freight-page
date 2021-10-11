@@ -1,3 +1,4 @@
+import { CalendarBlank, MapPin } from "phosphor-react";
 import React from "react";
 import Info from '../../assets/info.svg';
 import './export.css';
@@ -17,10 +18,16 @@ const Export = () => {
                   </div>
 
                   <div className="input__box">
+                    <span className="location-icon">
+                      <MapPin color="#111" weight="fill" size={16} />
+                    </span>
                     <p>From</p>
                     <input type="text" placeholder="City or port" />
                   </div>
                   <div className="input__box">
+                    <span className="location-icon">
+                      <MapPin color="#111" weight="fill" size={16} />
+                    </span>
                     <p>To</p>
                     <input type="text" placeholder="City or port" />
                   </div>
@@ -28,7 +35,10 @@ const Export = () => {
                 </div>
 
                 <div className="export__footbar">
-                  <input type="text" placeholder="Ready Date" />
+                  <div className="input__box">
+                    <CalendarBlank color="#111" weight="fill" size={16} />
+                    <input type="text" placeholder="Ready Date" />
+                  </div>
                   <select name="" id="">
                     <option value="Incoterms">Incoterms</option>
                   </select>

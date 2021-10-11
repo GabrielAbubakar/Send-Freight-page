@@ -40,7 +40,7 @@
     border: none;
     padding: 9px 8px;
     background-color: #f3f3f3;
-    width: 21rem;
+    width: 19rem;
     outline: none;
 }
 
@@ -73,4 +73,10 @@ select {
     background-color: #f3f3f3;
     width: 18rem;
     outline: none;
+}
+
+.location-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
 }

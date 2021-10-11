@@ -32,3 +32,13 @@ nav input[type=text] {
 nav ::placeholder {
     color: #92BAF8;
 }
+
+.search {
+    position: relative;
+}
+
+.magnify {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}

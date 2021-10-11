@@ -22,6 +22,7 @@
     width: 75%;
     margin: auto;
     padding-top: 1rem;
+    position: relative;
 }
 
 header {
@@ -36,4 +37,11 @@ header h1 {
 
 header p {
     color: #8e8f93;
+}
+
+.arrowleft {
+    position: absolute;
+    /* top: 0; */
+    left: -70px;
+    color: #2B2C2E;
 }
