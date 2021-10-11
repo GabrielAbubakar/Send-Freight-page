@@ -1,0 +1,42 @@
+.service-card {
+    position: relative;
+    display: flex;
+    height: 6rem;
+    border: 1px solid #d5d5d5;
+    align-items: center;
+    width: 13rem;
+    padding-left: 1rem;
+    overflow: hidden;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    background-color: #0548A1;
+    transition: all .2s;
+}
+
+.service-card:hover p {
+    color: #d5d5d5;
+    transition: all .2s;
+}
+
+.service-card:hover svg {
+    fill: #fff;
+    transition: all .2s;
+}
+
+.service-card p {
+    font-size: .9rem;
+    width: 49%;
+    color: #939395;
+}
+
+.service-card svg {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 30%;
+    right: -12%;
+    fill: #7f878a;
+}

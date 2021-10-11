@@ -1,0 +1,12 @@
+.nav-button {
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: .8rem;
+}
+
+.nav-button:not(:last-of-type) {
+    margin-right: 2rem;
+}

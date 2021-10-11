@@ -1,0 +1,175 @@
+*,
+*::after,
+*::before {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+
+    background-color: #F1F2F6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mainContent {
+    background-color: #F1F2F6;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+header h1 {
+    color: #2B2C2E;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    color: #8e8f93;
+}
+
+
+/* Select Section */
+.select {
+    width: 100%;
+    padding: 2rem 2.5rem;
+    background-color: #fff;
+    margin-bottom: 1.3rem;
+}
+
+.select h2 {
+    color: #2B2C2E;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Export Section */
+.export {
+    width: 100%;
+    padding: 2rem 2.5rem;
+    margin-bottom: 1.3rem;
+    background-color: #fff;
+}
+
+.info__logo {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: .5rem;
+}
+
+.export__intro {
+    display: flex;
+    justify-content: space-between;
+    width: 7.5rem;
+    border: 1px solid #dddddd;
+}
+
+.export__intro p {
+    padding: .5rem;
+    font-size: .8rem;
+}
+
+.export__intro p:not(:last-of-type) {
+    border-right: 1px solid #dddddd;
+}
+
+.export__topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.export__topbar input {
+    border: none;
+    padding: 9px 8px;
+    background-color: #f3f3f3;
+    width: 21rem;
+    outline: none;
+}
+
+.input__box {
+    display: flex;
+    background-color: #f3f3f3;
+    padding-left: 9px;
+    align-items: center;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.export__footbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.export__footbar input {
+    border: none;
+    padding: 9px 8px;
+    background-color: #f3f3f3;
+    width: 18rem;
+    outline: none;
+}
+
+select {
+    border: none;
+    padding: 9px 8px;
+    background-color: #f3f3f3;
+    width: 18rem;
+    outline: none;
+}
+
+
+
+/* Cargo Section */
+.cargo {
+    width: 100%;
+    padding: 2rem 2.5rem;
+    margin-bottom: 1.3rem;
+    background-color: #fff;
+}
+
+.cargo__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-bottom: 3rem;
+}
+
+.cargo__header .switch {
+    margin-left: auto;
+    margin-right: 1rem
+}
+
+.cargo__header span {
+    font-weight: 500;
+}
+
+.cargo__header p {
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+}
+
+.cargo__header h2 {
+    color: #2B2C2E;
+    font-size: 1.4rem;
+}
